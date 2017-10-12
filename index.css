@@ -139,6 +139,8 @@ a:hover {
 p {
     font-size: 20px;
     padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 img {
@@ -204,6 +206,12 @@ img {
         border-bottom: none;
     }
 }
+@media screen and (max-width: 600px) {
+    p {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
 @media screen and (max-width: 325px) {
     .nav{
         display: block;
@@ -226,6 +234,11 @@ img {
         /*z-index: 1000;*/
         color: #e97781;
     }
+     p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     h1 {
         font-size: 50px;
         margin-top: -250px;
